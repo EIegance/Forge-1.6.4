@@ -1,0 +1,207 @@
+****************************
+ Powered By MCP:            
+ http://mcp.ocean-labs.de/  
+ Searge, ProfMobius, Fesh0r,
+ R4wk, ZeuX, IngisKahn      
+ MCP Data version : unknown
+****************************
+:downloadClient SKIPPED
+:downloadServer SKIPPED
+:extractUserDev
+:mergeJars SKIPPED
+:applyBinPatches SKIPPED
+:downloadMcpTools UP-TO-DATE
+:genSrgs UP-TO-DATE
+:deobfBinJar UP-TO-DATE
+:compileApiJava UP-TO-DATE
+:processApiResources UP-TO-DATE
+:apiClasses UP-TO-DATE
+:sourceMainJava UP-TO-DATE
+:compileJava
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Could not resolve all dependencies for configuration ':compile'.
+> Could not resolve lzma:lzma:0.0.1.
+  Required by:
+      com.yourname.modid:Template 1.6.4:1.0
+   > Could not GET 'https://repo1.maven.org/maven2/lzma/lzma/0.0.1/lzma-0.0.1.pom'.
+      > peer not authenticated
+   > Could not GET 'https://libraries.minecraft.net/lzma/lzma/0.0.1/lzma-0.0.1.pom'.
+      > peer not authenticated
+   > Could not GET 'https://repo.maven.apache.org/maven2/lzma/lzma/0.0.1/lzma-0.0.1.pom'.
+      > peer not authenticated
+   > Could not GET 'https://jcenter.bintray.com/lzma/lzma/0.0.1/lzma-0.0.1.pom'.
+      > peer not authenticated
+   > Could not GET 'https://maven.mcmoddev.com/lzma/lzma/0.0.1/lzma-0.0.1.pom'.
+      > peer not authenticated
+   > Could not GET 'https://repo1.maven.org/maven2/lzma/lzma/0.0.1/lzma-0.0.1.pom'.
+      > peer not authenticated
+   > Could not GET 'https://libraries.minecraft.net/lzma/lzma/0.0.1/lzma-0.0.1.pom'.
+      > peer not authenticated
+   > Could not GET 'https://oss.sonatype.org/content/repositories/snapshots/lzma/lzma/0.0.1/lzma-0.0.1.pom'.
+      > peer not authenticated
+   > Could not GET 'https://files.minecraftforge.net/maven/lzma/lzma/0.0.1/lzma-0.0.1.pom'.
+      > peer not authenticated
+   > Could not GET 'https://maven.minecraftforge.net/lzma/lzma/0.0.1/lzma-0.0.1.pom'.
+      > peer not authenticated
+   > Could not GET 'https://maven.minecraftforge.net/lzma/lzma/0.0.1/lzma-0.0.1.pom'.
+      > peer not authenticated
+> Could not resolve com.paulscode:codecjorbis:20101023.
+  Required by:
+      com.yourname.modid:Template 1.6.4:1.0
+   > Could not GET 'https://repo1.maven.org/maven2/com/paulscode/codecjorbis/20101023/codecjorbis-20101023.pom'.
+      > peer not authenticated
+   > Could not GET 'https://libraries.minecraft.net/com/paulscode/codecjorbis/20101023/codecjorbis-20101023.pom'.
+      > peer not authenticated
+   > Could not GET 'https://repo.maven.apache.org/maven2/com/paulscode/codecjorbis/20101023/codecjorbis-20101023.pom'.
+      > peer not authenticated
+   > Could not GET 'https://jcenter.bintray.com/com/paulscode/codecjorbis/20101023/codecjorbis-20101023.pom'.
+      > peer not authenticated
+   > Could not GET 'https://maven.mcmoddev.com/com/paulscode/codecjorbis/20101023/codecjorbis-20101023.pom'.
+      > peer not authenticated
+   > Could not GET 'https://repo1.maven.org/maven2/com/paulscode/codecjorbis/20101023/codecjorbis-20101023.pom'.
+      > peer not authenticated
+   > Could not GET 'https://libraries.minecraft.net/com/paulscode/codecjorbis/20101023/codecjorbis-20101023.pom'.
+      > peer not authenticated
+   > Could not GET 'https://oss.sonatype.org/content/repositories/snapshots/com/paulscode/codecjorbis/20101023/codecjorbis-20101023.pom'.
+      > peer not authenticated
+   > Could not GET 'https://files.minecraftforge.net/maven/com/paulscode/codecjorbis/20101023/codecjorbis-20101023.pom'.
+      > peer not authenticated
+   > Could not GET 'https://maven.minecraftforge.net/com/paulscode/codecjorbis/20101023/codecjorbis-20101023.pom'.
+      > peer not authenticated
+   > Could not GET 'https://maven.minecraftforge.net/com/paulscode/codecjorbis/20101023/codecjorbis-20101023.pom'.
+      > peer not authenticated
+> Could not resolve com.paulscode:codecwav:20101023.
+  Required by:
+      com.yourname.modid:Template 1.6.4:1.0
+   > Could not GET 'https://repo1.maven.org/maven2/com/paulscode/codecwav/20101023/codecwav-20101023.pom'.
+      > peer not authenticated
+   > Could not GET 'https://libraries.minecraft.net/com/paulscode/codecwav/20101023/codecwav-20101023.pom'.
+      > peer not authenticated
+   > Could not GET 'https://repo.maven.apache.org/maven2/com/paulscode/codecwav/20101023/codecwav-20101023.pom'.
+      > peer not authenticated
+   > Could not GET 'https://jcenter.bintray.com/com/paulscode/codecwav/20101023/codecwav-20101023.pom'.
+      > peer not authenticated
+   > Could not GET 'https://maven.mcmoddev.com/com/paulscode/codecwav/20101023/codecwav-20101023.pom'.
+      > peer not authenticated
+   > Could not GET 'https://repo1.maven.org/maven2/com/paulscode/codecwav/20101023/codecwav-20101023.pom'.
+      > peer not authenticated
+   > Could not GET 'https://libraries.minecraft.net/com/paulscode/codecwav/20101023/codecwav-20101023.pom'.
+      > peer not authenticated
+   > Could not GET 'https://oss.sonatype.org/content/repositories/snapshots/com/paulscode/codecwav/20101023/codecwav-20101023.pom'.
+      > peer not authenticated
+   > Could not GET 'https://files.minecraftforge.net/maven/com/paulscode/codecwav/20101023/codecwav-20101023.pom'.
+      > peer not authenticated
+   > Could not GET 'https://maven.minecraftforge.net/com/paulscode/codecwav/20101023/codecwav-20101023.pom'.
+      > peer not authenticated
+   > Could not GET 'https://maven.minecraftforge.net/com/paulscode/codecwav/20101023/codecwav-20101023.pom'.
+      > peer not authenticated
+> Could not resolve com.paulscode:libraryjavasound:20101123.
+  Required by:
+      com.yourname.modid:Template 1.6.4:1.0
+   > Could not GET 'https://repo1.maven.org/maven2/com/paulscode/libraryjavasound/20101123/libraryjavasound-20101123.pom'.
+      > peer not authenticated
+   > Could not GET 'https://libraries.minecraft.net/com/paulscode/libraryjavasound/20101123/libraryjavasound-20101123.pom'.
+      > peer not authenticated
+   > Could not GET 'https://repo.maven.apache.org/maven2/com/paulscode/libraryjavasound/20101123/libraryjavasound-20101123.pom'.
+      > peer not authenticated
+   > Could not GET 'https://jcenter.bintray.com/com/paulscode/libraryjavasound/20101123/libraryjavasound-20101123.pom'.
+      > peer not authenticated
+   > Could not GET 'https://maven.mcmoddev.com/com/paulscode/libraryjavasound/20101123/libraryjavasound-20101123.pom'.
+      > peer not authenticated
+   > Could not GET 'https://repo1.maven.org/maven2/com/paulscode/libraryjavasound/20101123/libraryjavasound-20101123.pom'.
+      > peer not authenticated
+   > Could not GET 'https://libraries.minecraft.net/com/paulscode/libraryjavasound/20101123/libraryjavasound-20101123.pom'.
+      > peer not authenticated
+   > Could not GET 'https://oss.sonatype.org/content/repositories/snapshots/com/paulscode/libraryjavasound/20101123/libraryjavasound-20101123.pom'.
+      > peer not authenticated
+   > Could not GET 'https://files.minecraftforge.net/maven/com/paulscode/libraryjavasound/20101123/libraryjavasound-20101123.pom'.
+      > peer not authenticated
+   > Could not GET 'https://maven.minecraftforge.net/com/paulscode/libraryjavasound/20101123/libraryjavasound-20101123.pom'.
+      > peer not authenticated
+   > Could not GET 'https://maven.minecraftforge.net/com/paulscode/libraryjavasound/20101123/libraryjavasound-20101123.pom'.
+      > peer not authenticated
+> Could not resolve com.paulscode:librarylwjglopenal:20100824.
+  Required by:
+      com.yourname.modid:Template 1.6.4:1.0
+   > Could not GET 'https://repo1.maven.org/maven2/com/paulscode/librarylwjglopenal/20100824/librarylwjglopenal-20100824.pom'.
+      > peer not authenticated
+   > Could not GET 'https://libraries.minecraft.net/com/paulscode/librarylwjglopenal/20100824/librarylwjglopenal-20100824.pom'.
+      > peer not authenticated
+   > Could not GET 'https://repo.maven.apache.org/maven2/com/paulscode/librarylwjglopenal/20100824/librarylwjglopenal-20100824.pom'.
+      > peer not authenticated
+   > Could not GET 'https://jcenter.bintray.com/com/paulscode/librarylwjglopenal/20100824/librarylwjglopenal-20100824.pom'.
+      > peer not authenticated
+   > Could not GET 'https://maven.mcmoddev.com/com/paulscode/librarylwjglopenal/20100824/librarylwjglopenal-20100824.pom'.
+      > peer not authenticated
+   > Could not GET 'https://repo1.maven.org/maven2/com/paulscode/librarylwjglopenal/20100824/librarylwjglopenal-20100824.pom'.
+      > peer not authenticated
+   > Could not GET 'https://libraries.minecraft.net/com/paulscode/librarylwjglopenal/20100824/librarylwjglopenal-20100824.pom'.
+      > peer not authenticated
+   > Could not GET 'https://oss.sonatype.org/content/repositories/snapshots/com/paulscode/librarylwjglopenal/20100824/librarylwjglopenal-20100824.pom'.
+      > peer not authenticated
+   > Could not GET 'https://files.minecraftforge.net/maven/com/paulscode/librarylwjglopenal/20100824/librarylwjglopenal-20100824.pom'.
+      > peer not authenticated
+   > Could not GET 'https://maven.minecraftforge.net/com/paulscode/librarylwjglopenal/20100824/librarylwjglopenal-20100824.pom'.
+      > peer not authenticated
+   > Could not GET 'https://maven.minecraftforge.net/com/paulscode/librarylwjglopenal/20100824/librarylwjglopenal-20100824.pom'.
+      > peer not authenticated
+> Could not resolve com.paulscode:soundsystem:20120107.
+  Required by:
+      com.yourname.modid:Template 1.6.4:1.0
+   > Could not GET 'https://repo1.maven.org/maven2/com/paulscode/soundsystem/20120107/soundsystem-20120107.pom'.
+      > peer not authenticated
+   > Could not GET 'https://libraries.minecraft.net/com/paulscode/soundsystem/20120107/soundsystem-20120107.pom'.
+      > peer not authenticated
+   > Could not GET 'https://repo.maven.apache.org/maven2/com/paulscode/soundsystem/20120107/soundsystem-20120107.pom'.
+      > peer not authenticated
+   > Could not GET 'https://jcenter.bintray.com/com/paulscode/soundsystem/20120107/soundsystem-20120107.pom'.
+      > peer not authenticated
+   > Could not GET 'https://maven.mcmoddev.com/com/paulscode/soundsystem/20120107/soundsystem-20120107.pom'.
+      > peer not authenticated
+   > Could not GET 'https://repo1.maven.org/maven2/com/paulscode/soundsystem/20120107/soundsystem-20120107.pom'.
+      > peer not authenticated
+   > Could not GET 'https://libraries.minecraft.net/com/paulscode/soundsystem/20120107/soundsystem-20120107.pom'.
+      > peer not authenticated
+   > Could not GET 'https://oss.sonatype.org/content/repositories/snapshots/com/paulscode/soundsystem/20120107/soundsystem-20120107.pom'.
+      > peer not authenticated
+   > Could not GET 'https://files.minecraftforge.net/maven/com/paulscode/soundsystem/20120107/soundsystem-20120107.pom'.
+      > peer not authenticated
+   > Could not GET 'https://maven.minecraftforge.net/com/paulscode/soundsystem/20120107/soundsystem-20120107.pom'.
+      > peer not authenticated
+   > Could not GET 'https://maven.minecraftforge.net/com/paulscode/soundsystem/20120107/soundsystem-20120107.pom'.
+      > peer not authenticated
+> Could not resolve argo:argo:2.25_fixed.
+  Required by:
+      com.yourname.modid:Template 1.6.4:1.0
+   > Could not GET 'https://repo1.maven.org/maven2/argo/argo/2.25_fixed/argo-2.25_fixed.pom'.
+      > peer not authenticated
+   > Could not GET 'https://libraries.minecraft.net/argo/argo/2.25_fixed/argo-2.25_fixed.pom'.
+      > peer not authenticated
+   > Could not GET 'https://repo.maven.apache.org/maven2/argo/argo/2.25_fixed/argo-2.25_fixed.pom'.
+      > peer not authenticated
+   > Could not GET 'https://jcenter.bintray.com/argo/argo/2.25_fixed/argo-2.25_fixed.pom'.
+      > peer not authenticated
+   > Could not GET 'https://maven.mcmoddev.com/argo/argo/2.25_fixed/argo-2.25_fixed.pom'.
+      > peer not authenticated
+   > Could not GET 'https://repo1.maven.org/maven2/argo/argo/2.25_fixed/argo-2.25_fixed.pom'.
+      > peer not authenticated
+   > Could not GET 'https://libraries.minecraft.net/argo/argo/2.25_fixed/argo-2.25_fixed.pom'.
+      > peer not authenticated
+   > Could not GET 'https://oss.sonatype.org/content/repositories/snapshots/argo/argo/2.25_fixed/argo-2.25_fixed.pom'.
+      > peer not authenticated
+   > Could not GET 'https://files.minecraftforge.net/maven/argo/argo/2.25_fixed/argo-2.25_fixed.pom'.
+      > peer not authenticated
+   > Could not GET 'https://maven.minecraftforge.net/argo/argo/2.25_fixed/argo-2.25_fixed.pom'.
+      > peer not authenticated
+   > Could not GET 'https://maven.minecraftforge.net/argo/argo/2.25_fixed/argo-2.25_fixed.pom'.
+      > peer not authenticated
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output.
+
+BUILD FAILED
+
+Total time: 18.269 secs
